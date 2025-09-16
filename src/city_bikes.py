@@ -19,7 +19,7 @@ def get_station_data(filename: str):
 
             station_locations[parts[name]] = (float(parts[longitude]), float(parts[latitude]))
             """
-               Remeber:
+               Remember:
                longitude located in index 0 in tuple
                latitud located in index 1 in tuple
             """
